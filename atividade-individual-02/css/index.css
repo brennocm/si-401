@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.imagem-header{
+    width: 100%;
+    height: 85vh; 
+    position: absolute;;
+
+}
+
+.titulo {
+    position: absolute;
+    top: 30%; /* Define a posição vertical no meio da imagem */
+    left: 50%; /* Define a posição horizontal no meio da imagem */
+    transform: translate(-50%, -50%); /* Centraliza o elemento no meio da imagem */
+    z-index: 2; /* Coloca o texto acima da imagem (valor maior que 1) */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    font-family: 'League Spartan', sans-serif; /* Aplica a fonte League Spartan */
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.container-conteudo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    size: 30px;
+  
+}
+
+.box {
+    background-color: #ff0202;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0; /* Posiciona o texto na parte inferior */
+
+}
