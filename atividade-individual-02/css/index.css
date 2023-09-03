@@ -14,33 +14,84 @@ body, html {
 
 .titulo {
     position: absolute;
-    top: 30%; /* Define a posição vertical no meio da imagem */
-    left: 50%; /* Define a posição horizontal no meio da imagem */
-    transform: translate(-50%, -50%); /* Centraliza o elemento no meio da imagem */
-    z-index: 2; /* Coloca o texto acima da imagem (valor maior que 1) */
-    color: white; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    font-family: 'League Spartan', sans-serif; /* Aplica a fonte League Spartan */
+    top: 30%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+    color: white; 
+    padding: 10px; 
+    font-family: 'League Spartan', sans-serif; 
     text-align: center;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
 
 }
 
-.container-conteudo {
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 200px;
-    size: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    position: relative;
+    z-index: 1;
+    margin-top: auto; 
+    font-family: Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+    font-weight: bold; 
+}
+
+.item {
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.push {
+    height: 72%; 
+}
+
+.open-book{
+    padding-bottom: 15px;
+    width: 8vh;
+}
+
+.goal{
+    padding-bottom: 17px;
+    width: 8vh;
+}
+
+.ref{
+    padding-bottom: 17px;
+    width: 8vh;
+}
+
+.exam{
+    padding-bottom: 17px;
+    width: 8vh;
+    font-size: 5px !important; 
+}
+
+.teacher{
+    padding-bottom: 17px;
+    width: 10vh;
+}
+
+.student{
+    padding-bottom: 17px;
+    width: 10vh;
+}
+
+a:visited {
+    color: black; 
+  }
   
-}
 
-.box {
-    background-color: #ff0202;
-    padding: 20px;
-    border: 1px solid #ccc;
-    font-size: 30px;
-    position: absolute;
-    bottom: 0; /* Posiciona o texto na parte inferior */
+  a {
+    text-decoration: none; 
+  }
 
-}
+  a:hover {
+    color: #6089FF; 
+  }
+

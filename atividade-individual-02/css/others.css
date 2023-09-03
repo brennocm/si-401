@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center; /* Centraliza horizontalmente */
+	background: linear-gradient(to right, #6481FF, #46C9FC);
+	padding: 20px;
+  }
+  
+  .navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+    font-weight: bold; 
+  }
+  
+  .navbar li {
+	margin-right: 20px; /* Espaçamento entre os itens da navegação */
+  }
+  
+  .navbar a {
+	margin: 30px;
+	text-decoration: none;
+	color: white !important; /* Cor do texto na navbar */
+	font-weight: bold;
+	font-size: 25px;
+  }
+
+  .navbar a:hover {
+	color: #25283070 !important;
+
+  }
+
+  h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 98px;
+	color: rgb(40, 95, 132);
+	text-align: center;
+	font-weight: bold; 
+  }
+
+  .container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px 0;
+  }
+
+  p{
+	font-size: 22px;
+	margin: 0 auto 1em;
+	text-align: center;
+  }
+
+  .ref-title{
+	font-size: 70px !important;
+  }
+
+  /* Estilo para links visitados */
+a:visited {
+    color: black; /* Altera a cor do texto para links visitados */
+  }
+  
+  /* Estilo para links quando o mouse passa por cima */
+  a {
+    text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
+	color: black;
+  }
+  
+  /* Estilo para links ativos (clicados) */
+  a:hover {
+    color: #2a4492; /* Altera a cor do texto para links ativos */
+  }
+
+  .title-calculo{
+    font-size: 40px !important;
+    }
+  
+  
