@@ -37,7 +37,7 @@ body, html {
     position: relative;
     z-index: 1;
     margin-top: auto; 
-    font-family: Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+    font-family: 'Segoe UI', Roboto, 'Open Sans', 'Ubuntu', 'Fira Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold; 
 }
 
