@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/index.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="styles/menu.css" media="screen"/>
+    <title>Index</title>
+</head>
+<body>
+
+    <div class="menu">
+        <div class="menu-item">
+            <a href="index.html">
+                <img src="icons/home.png" alt="Ícone Home" class="menu-icon">
+                Home
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="script/base-dados.php">
+                <img src="icons/data.png" alt="Ícone Dados" class="menu-icon">
+                Dados
+            </a>
+        </div>
+    </div>
+
+    <form class="form-style-9" method="POST" action="script/processa_formulario.php">
+
+        <h3>Tela de cadastro</h3>
+        <ul>
+            <li>
+                <input type="text" name="name" class="field-style field-split align-left" placeholder="Nome" required />
+            </li>
+            <li>
+                <input type="text" name="ra" class="field-style field-split align-left" placeholder="RA" required />
+            </li>
+            <li>
+                <input type="text" name="sexo" class="field-style field-split align-left" placeholder="Sexo" required />
+            </li>
+            <li>
+                <input type="text" name="idade" class="field-style field-split align-left" placeholder="Idade" required />
+            </li>
+            <li>
+                <input type="text" name="endereco" class="field-style field-split align-left" placeholder="Endereço" required />
+            </li>
+            <li>
+                <input type="text" name="telefone" class="field-style field-split align-left" placeholder="Telefone" required />
+            </li>
+            <li>
+                <input type="email" name="email" class="field-style field-split align-left" placeholder="Email" required />
+            </li>
+            <li>
+                <input type="submit" value="Cadastrar" />
+            </li>
+        </ul>
+    </form>
+    
+</body>
+</html>

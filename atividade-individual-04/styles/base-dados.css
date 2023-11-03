@@ -1,0 +1,23 @@
+.conteudo{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+ul, ol {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0px;
+  }
+
+  ul li {
+    margin-bottom: 5%; 
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo de exemplo */
+}
+
+.menu {
+    width: 150px;
+    background-color: #f0f0f0;
+    color: #205f83;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-item i {
+    margin-right: 15px;
+}
+
+.menu-item:hover {
+    background-color: #3985B1;
+    color: white;
+}
+
+.menu-item .menu-icon {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    margin-right: 1px; /* Espaço entre a imagem e o texto */
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado de links */
+    color: inherit; /* Herda a cor do texto do elemento pai */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar o mouse */
+}
+
+
